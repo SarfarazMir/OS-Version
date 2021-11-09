@@ -8,3 +8,4 @@ if (window.navigator.userAgent.indexOf("Windows NT 5.0") != -1) OSName="Windows 
 if (window.navigator.userAgent.indexOf("Mac")            != -1) OSName="Mac/iOS";
 if (window.navigator.userAgent.indexOf("X11")            != -1) OSName="UNIX";
 if (window.navigator.userAgent.indexOf("Linux")          != -1) OSName="Linux";
+console.log(OSName);
